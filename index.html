@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Web Experience</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Interactive Web Experience</h1>
+        <p>Combining CSS3 animations with JavaScript functionality</p>
+    </header>
+    
+    <main>
+        <!-- Part 1: CSS3 Animations -->
+        <section id="css-animations">
+            <h2>CSS3 Transitions & Animations</h2>
+            
+            <h3>Button Hover Effects</h3>
+            <button class="btn">Hover Me</button>
+            
+            <h3>Continuous Animations</h3>
+            <div class="animation-container">
+                <div class="box animated-box">Hello!</div>
+            </div>
+            
+            <h3>Card Flip on Hover</h3>
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front">Front</div>
+                    <div class="card-back">Back</div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Part 2: JavaScript Functions -->
+        <section id="js-functions">
+            <h2>JavaScript Functions</h2>
+            
+            <h3>Function Parameters & Return Values</h3>
+            <div class="form-group">
+                <label for="numberInput">Enter a number to calculate its square:</label>
+                <input type="number" id="numberInput" placeholder="Enter a number">
+            </div>
+            <button class="btn" id="calculateBtn">Calculate Square</button>
+            <p id="result"></p>
+            
+            <h3>Local vs Global Scope Demo</h3>
+            <button class="btn" id="scopeDemoBtn">Run Scope Demo</button>
+            <p id="scopeResult"></p>
+        </section>
+        
+        <!-- Part 3: Combining CSS & JavaScript -->
+        <section id="css-js-combined">
+            <h2>Combining CSS Animations with JavaScript</h2>
+            
+            <h3>Animation Controls</h3>
+            <div class="animation-controls">
+                <button class="btn" id="startAnimation">Start Animation</button>
+                <button class="btn" id="stopAnimation">Stop Animation</button>
+                <button class="btn" id="changeColor">Change Color</button>
+            </div>
+            
+            <div class="animation-container">
+                <div class="box" id="js-controlled-box">Control Me!</div>
+            </div>
+            
+            <h3>Popup Modal</h3>
+            <button class="btn" id="openModal">Open Modal</button>
+            
+            <div class="modal" id="exampleModal">
+                <div class="modal-content">
+                    <span class="close-btn" id="closeModal">&times;</span>
+                    <h3>Hello from the Modal!</h3>
+                    <p>This modal was triggered with JavaScript and animated with CSS.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>Interactive Web Experience - Demonstrating CSS3 animations and JavaScript functions</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
